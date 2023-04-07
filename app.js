@@ -7,8 +7,7 @@ import TuitsController
   from "./controllers/tuits/tuits-controller.js";
 import cors from 'cors'
 import mongoose from "mongoose";
-import dotenv from "dotenv";
-dotenv.config();
+
 
 //mongoose.connect('mongodb://127.0.0.1:27017/tuiter');
 //mongoose.connect("mongodb+srv://aiyanafeng:supersecretpassword@cluster0.b4bhn8k.mongodb.net/tuiter-sp-23-06?retryWrites=true&w=majority")
